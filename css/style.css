@@ -1,0 +1,50 @@
+/*CSS reset, don't mind it for now. */
+*{
+    margin: 5px;
+    padding: 5px;
+   }
+   #grey{
+    width: auto;
+    background-color: silver;
+    margin: 0px auto;
+   }
+   #blue{
+    height: 150px;
+    background-color: blue;
+    padding: 10px;
+    margin-bottom: 10px;
+   }
+   #red{
+    height: 600px;
+    width: 30%;
+    background-color: red;
+
+   }
+   #yellow{
+    height: 700px;
+    width: 70%;
+    background-color: yellow; 
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+   }
+   .purple{
+    height: 400px;
+    width: 30%;
+    background-color: purple;
+   }
+   #pink{
+    height: 230px;
+    background-color: pink;
+    margin-top: 20px;
+       }
+
+.flex-box{
+    display: flex;
+    justify-content:space-between;
+   }
+.purple-container{
+    display: flex;
+    justify-content: space-between;
+}  
