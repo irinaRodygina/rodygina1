@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> My first website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#Section1">first section</a></li>
+      <li><a href="#section2">second section</a></li>
+      <li><a href="#Table">first section</a></li>
+      <li><a href="#Questionnaire">second section</a></li>
+    </ul>     
+  </nav>
+    <main>
+      <div id="Section1">
+        <h2>Section 1</h2>
+        <p><span style="color: rgb(0, 255, 30);">This is the first section.</span></p>
+      </div>
+      <div id="section2">
+        <h2>Section 2</h2>
+        <p><span style="color: rgb(255, 0, 166);"> This is the second section.</span></p>
+      </div>
+      <div id="Table">
+        <h2>table</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Month</th>
+              <th>Temperature</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>November</td>
+              <td>+10</td>
+            </tr>
+            <tr>
+              <td>December</td>
+              <td>+1</td>
+            </tr>
+          </tbody>
+        </table> <br>
+
+      </div>
+      
+      
+      <div id="Questionnaire">
+        <form name="Questionnaire">
+          <h2>Questionnaire</h2> 
+          <select name="Sity">
+              <option value="Rotterdam">Rotterdam</option>
+              <option value="Amsterdam">Amsterdam</option>
+          </select><br>
+  
+          <label for="Name">Name</label> 
+          <input type="text" id="Name" name="Name"> <br>
+          <label for="W">Women</label>
+          <input type="checkbox" id="W" name="W"> <br>
+          <label>
+            <input type="radio" value="M" name="M">
+          Man</label><br>
+          <input type="submit" id="Start" name="Start"> <br>
+        </form>
+      </div>
+      
+    </main>
+    <footer>
+      <p>&copy; 2024 Rodygina first website</p>
+    </footer>
+  </body>
+</html>
